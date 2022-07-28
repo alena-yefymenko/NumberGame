@@ -18,10 +18,10 @@ public class NumberGame {
             if (randomNumber < guess) {
                 System.out.println("It is smaller than " + guess + " guess");
             }
-            if (randomNumber > guess) {
+           else if (randomNumber > guess) {
                 System.out.println("It is a greater than " + guess + " guess");
             }
-            if (randomNumber == guess) {
+            else {
                 hasWon = true;
                 break;
             }
